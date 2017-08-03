@@ -1,0 +1,15 @@
+{
+  "name": "unit-tests",
+  "main": "server.js",
+  "dependencies": {
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha utils/**/*.spec.js",
+    "start": "node server"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "sinon": "^1.17.7",
+    "proxyquire": "^1.7.11"
+  }
+}
